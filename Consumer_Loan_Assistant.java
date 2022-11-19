@@ -11,12 +11,12 @@ public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
     Boolean tf3enabled=false,tf4enabled=true;
 
     Consumer_Loan_Assistant(){
-        super("                                                                          Consumer Loan Assistant");
+        super("Consumer Loan Assistant");
 
         ta=new JTextArea("");
         ta.setBounds(400,40,300,150);
         ta.setFont(new Font("Segoe Script",Font.PLAIN,14));
-//        ta.setBackground(Color.YELLOW);
+        ta.setBackground(Color.YELLOW);
         ta.setForeground(Color.BLACK);
         ta.setEditable(false);
         ta.setBorder(BorderFactory.createLineBorder(Color.BLACK));
@@ -212,3 +212,4 @@ public class Consumer_Loan_Assistant extends JFrame implements ActionListener {
     }
 
 }
+
